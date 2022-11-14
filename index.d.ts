@@ -375,6 +375,7 @@ declare namespace TradeOfferManager {
     globalAssetCache?: boolean;
     pollData?: string;
     savePollData?: boolean;
+    dataDirectory?: string;
   }
 
   interface IDetails {
