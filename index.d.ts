@@ -374,6 +374,7 @@ declare namespace TradeOfferManager {
     cancelOfferCountMinAge?: number;
     globalAssetCache?: boolean;
     pollData?: string;
+    savePollData?: boolean;
   }
 
   interface IDetails {
