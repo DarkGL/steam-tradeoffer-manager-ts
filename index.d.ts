@@ -5,6 +5,8 @@
 /**
  * https://github.com/DoctorMcKay/node-steam-tradeoffer-manager/wiki/TradeOfferManager
  */
+
+type SteamID = import('steamid');
 declare class TradeOfferManager {
   pollInterval: number;
   cancelTime: number;
