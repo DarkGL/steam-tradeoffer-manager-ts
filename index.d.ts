@@ -109,6 +109,7 @@ declare namespace TradeOfferManager {
   class EconItem {
     id: string;
     assetid: string;
+    new_assetid?: string;
     contextid: string;
     appid: string;
     classid: string;
@@ -284,7 +285,7 @@ declare namespace TradeOfferManager {
   class TradeOffer {
     manager: TradeOfferManager;
     id: string;
-    partner: string;
+    partner: SteamID;
     message: string;
     state: ETradeOfferState;
     itemsToGive: EconItem[];
